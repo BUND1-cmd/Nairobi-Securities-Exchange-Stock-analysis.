@@ -31,3 +31,11 @@
 - The raw Adjust column is populated only for 3 to 10 May 2021 and is not used. The script recomputes the adjustment from the bonus date.
 - Adjusted 11 May return: about +16.7%, not -58%.
 - Dividend: KES 2.25, ex-date 16 April 2021. Price-only returns do not adjust for it. Decision on price vs total return deferred to Stage 4.
+
+## IMH spike, 21 to 30 August 2024
+
+- 21 Aug 2024: price 20.60 to 34.25 (+66%), volume 4,619,200 (about 200 times the normal level).
+- 22 to 27 Aug 2024: four consecutive falls of about -9.9% each, then 28 to 30 Aug back to about 21 to 22.
+- Status: unexplained. Looks like a one-off large trade or data error, not a change in value.
+- Decision: rows kept in the clean data and flagged with `spike_flag = True` for 21 to 30 Aug 2024. Excluded from return statistics in the main analysis. Tested with and without in the Stage 5 robustness check.
+- Check still open: search NSE and I&M announcements for August 2024. If none found, the status stays unexplained.

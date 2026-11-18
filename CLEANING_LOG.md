@@ -22,3 +22,12 @@
 - 2022 file: 59 rows with a value, all CGEN (03 Jan to 24 Mar 2022). Same pattern. CGEN is not a bank, so it's outside the study universe.
 - 2020, 2023, 2024 files: no values.
 - Decision: the adjust column isn't used in return calculations until the IMH rows are verified.
+
+## IMH bonus issue (1:1, 2021)
+
+- Book closure 10 May 2021; shares credited 21 May 2021 (I&M published notice, March 2021).
+- Raw Day Price falls from 42.60 (10 May) to 24.85 (11 May), a -17.75 change. This is the ex-bonus break, not a trading loss.
+- Adjustment: divide all IMH Day Price, Previous, Day High, Day Low, 12m High and 12m Low rows dated before 11 May 2021 by 2. Multiply Volume by 2 for the same rows.
+- The raw Adjust column is populated only for 3 to 10 May 2021 and is not used. The script recomputes the adjustment from the bonus date.
+- Adjusted 11 May return: about +16.7%, not -58%.
+- Dividend: KES 2.25, ex-date 16 April 2021. Price-only returns do not adjust for it. Decision on price vs total return deferred to Stage 4.

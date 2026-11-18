@@ -1,6 +1,12 @@
 # Data dictionary
 
 ## 1. Sources
+Original Mendeley file names: see the list above. The 2024 file was saved with a .xlsx ending by Windows; the content is CSV.
+2020: NSE_data_all_stocks_2020.csv
+2021: NSE_data_all_stocks_2021_upto_31dec2021.csv
+2022: NSE_data_all_stocks_2022.csv
+2023: NSE_data_all_stocks_2023.csv
+2024: NSE_data_all_stocks_2024_csv.xlsx (content is CSV)
 
 | File | Period | Source | DOI / URL | Version | Downloaded | Licence | Notes |
 
